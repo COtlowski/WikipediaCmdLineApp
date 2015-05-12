@@ -1,0 +1,17 @@
+**********************
+How to compile and run
+**********************
+Compile
+javac -cp jsoup-1.8.2.jar; WCLA_Main.java
+
+Run
+java -cp jsoup-1.8.2.jar; WCLA_Main <optional args>
+
+
+*******************
+Problem Explanation
+*******************
+
+My approach to the problem at hand was to make the program straight to the point and as simple as possible.  I first tried to isolate the first paragraph of the Wikipedia page by using the Inspect Element tool on my internet browser.  I then proceeded to figure out if there was any consistency between pages where the first paragraph would occur in the HTML file.
+
+In order to do the parsing, I made use of the free Jsoup library in order to help with the parsing.  Reasons why I include it in the project is that the core JDK does not have any native support for parsing HTML like XML.  The other reason is that it is provides an interface for finding data and other elements quickly and simply.
